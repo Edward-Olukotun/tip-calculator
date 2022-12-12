@@ -172,7 +172,7 @@ function Calculator() {
           </div>
         </div>
         {/*  */}
-        <div className="-ml-[10%]">
+        <div className="md:-ml-[10%]">
           <div className=" bg-Verydarkcyan rounded-md md:rounded-lg mx-5 my-8 md:h-fit text-Verylightgrayishcyan">
             <div className="mx-4 flex justify-between md:w-[100%]">
               <section className="mx-10 my-2 md:w-[50%]">
