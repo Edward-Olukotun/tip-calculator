@@ -32,9 +32,9 @@ function Calculator() {
   };
 
   const calc = () => {
-    const percent = Math.floor(1 + tip / 100);
-    const result = Math.floor((bill * percent) / split);
-    const person = Math.floor(splitTotal / 10);
+    const percent = Math.round(1 + tip / 100).toFixed(3);
+    const result = Math.round((bill * percent) / split).toFixed(3);
+    const person = Math.round((tip / 100) * splitTotal).toFixed(3);
     setPeople(person);
     setSplitTotal(result);
   };
