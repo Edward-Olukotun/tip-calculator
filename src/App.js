@@ -3,7 +3,7 @@ import Calculator from "./Calculator";
 
 function App() {
   return (
-    <div className="App w-screen overflow-hidden bg-Light-Cyan">
+    <div className="App w-screen overflow-hidden bg-Light-Cyan h-[100%]">
       <Calculator />
       <div className="bg-Light-Cyan h-52"></div>
     </div>
