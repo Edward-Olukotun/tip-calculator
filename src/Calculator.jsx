@@ -45,12 +45,12 @@ function Calculator() {
         <p>SPLI</p>
         <p>TTER</p>
       </div>
-      <div className="bg-white w-fit rounded-xl md:flex justify-center ml-[8%] md:ml-[20%] md:mt-10 md:h-[50%] md:w-[80%]">
+      <div className="bg-white w-[90%] rounded-xl md:flex justify-center ml-[1%] md:ml-[8%] md:mt-10 md:h-[50%] md:w-[90%]">
         {/*  */}
         <div className="w-fit">
           <div className="my-2 mx-5">
             <p className="text-Darkgrayishcyan font-medium">Bill</p>
-            <div className="bg-gray-200/80 border flex border-gray-200 rounded-md w-fit">
+            <div className="bg-gray-200/80 border flex border-gray-200 rounded-md w-fit md:w-[40%]">
               <label htmlFor="$">
                 <img src={dollar} alt="/" className="my-2 mx-2" />
               </label>
@@ -63,27 +63,27 @@ function Calculator() {
             </div>
           </div>
           {/* desktop */}
-          <div className="hidden md:flex flex-col my-2 mx-5 w-[60%] ">
+          <div className="hidden md:flex flex-col my-2 mx-5 w-[65%] ">
             <p className="text-Darkgrayishcyan font-medium">Select Tip %</p>
             <div className="flex">
               <button
                 onClick={extra}
                 value={5}
-                className="mx-3 w-44  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-3 w-20  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 5%
               </button>
               <button
                 onClick={extra}
                 value={10}
-                className="mx-3 w-44  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-3 w-20  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 10%
               </button>
               <button
                 onClick={extra}
                 value={15}
-                className="mx-3 w-44  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-3 w-20  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 15%
               </button>
@@ -93,73 +93,73 @@ function Calculator() {
               <button
                 onClick={extra}
                 value={20}
-                className="mx-3 w-44  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-3 w-20  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 20%
               </button>
               <button
                 onClick={extra}
                 value={50}
-                className="mx-3 w-44  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-3 w-20  text-white bg-Verydarkcyan my-2 rounded-sm p-2 hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 50%
               </button>
-              <button className="mx-3 w-44 bg-gray-200 text-teal-600  my-2 rounded-sm p-2 hover:bg-gray-400 hover:text-teal-900">
+              <button className="mx-3 w-20 bg-gray-200 text-teal-600  my-2 rounded-sm p-2 hover:bg-gray-400 hover:text-teal-900">
                 Custom
               </button>
             </div>
           </div>
           {/* mobile */}
-          <div className="my-2 mx-5 md:hidden">
+          <div className="my-2 mx-5 md:hidden w-[90%]">
             <p className="text-Darkgrayishcyan font-medium">Select Tip %</p>
-            <section className="flex my-5">
+            <section className="flex my-3">
               <button
                 onClick={extra}
                 value={5}
-                className="mx-8 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-4 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 5%
               </button>
               <button
                 onClick={extra}
                 value={10}
-                className="mx-8 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-4 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 10%
               </button>
             </section>
-            <section className="flex my-5">
+            <section className="flex my-3">
               <button
                 onClick={extra}
                 value={15}
-                className="mx-8 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-4 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 15%
               </button>
               <button
                 onClick={extra}
                 value={20}
-                className="mx-8 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-4 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 20%
               </button>
             </section>
-            <section className="flex my-5">
+            <section className="flex my-3">
               <button
                 onClick={extra}
                 value={50}
-                className="mx-8 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
+                className="mx-4 w-32  text-white bg-Verydarkcyan my-2 rounded-md hover:text-Verydarkcyan hover:bg-Strong-Cyan text-bold text-xl  cursor-pointer"
               >
                 50%
               </button>
-              <button className="mx-8 w-32 bg-gray-200 text-teal-600  my-2 rounded-md hover:bg-gray-400 hover:text-teal-900">
+              <button className="mx-4 w-32 bg-gray-200 text-teal-600  my-2 rounded-md hover:bg-gray-400 hover:text-teal-900">
                 Custom
               </button>
             </section>
           </div>
           <div className="my-2 mx-5">
             <p className="text-Darkgrayishcyan font-medium">Number of people</p>
-            <div className="bg-gray-200/80 borde flex border-gray-200 rounded-md w-fit">
+            <div className="bg-gray-200/80 borde flex border-gray-200 rounded-md w-fit md:w-[40%]">
               <label htmlFor="$">
                 <img src={person} alt="/" className="my-2 mx-2" />
               </label>
@@ -172,7 +172,7 @@ function Calculator() {
           </div>
         </div>
         {/*  */}
-        <div className="md:-ml-[10%]">
+        <div className="md:-ml-[20%] lg:-ml-[12%]">
           <div className=" bg-Verydarkcyan rounded-md md:rounded-lg mx-5 my-8 md:h-fit text-Verylightgrayishcyan">
             <div className="mx-4 flex justify-between md:w-[100%]">
               <section className="mx-10 my-2 md:w-[50%]">
